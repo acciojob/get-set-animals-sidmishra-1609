@@ -28,15 +28,15 @@ animal.makeSound();
 
 const dog= new Dog("Dog");
 console.log(dog.species);
-dog.makeSound();
+animal.makeSound();
 dog.bark();
 
 const cat =new Cat("Cat");
 console.log(cat.species);
-cat.makeSound();
+animal.makeSound();
 cat.purr();
 
 // Do not change the code below this line
-// window.Animal = Animal;
-// window.Dog = Dog;
-// window.Cat = Cat;
+window.Animal = Animal;
+window.Dog = Dog;
+window.Cat = Cat;
