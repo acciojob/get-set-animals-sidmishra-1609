@@ -6,11 +6,9 @@ class Animal {
 	get species(){
 		return this._species;
 	}
-	set species(species){
-		this._species = species;
-	}
+
 	makeSound(){
-		console.log("The " + this.species + " make a sound")
+		console.log("The " + this.species + " make a sound");
 	}
 }
 
@@ -26,9 +24,9 @@ class Cat extends Animal {
 console.log("purr");
 	}
 }
-const animal= new Animal("Unknown");
-console.log(animal.species)
-animal.makeSound();
+// const animal= new Animal("Unknown");
+// console.log(animal.species)
+// animal.makeSound();
 
 const dog= new Dog("Dog");
 console.log(dog.species);
