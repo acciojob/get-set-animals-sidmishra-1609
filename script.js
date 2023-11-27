@@ -12,17 +12,18 @@ class Animal {
 	}
 }
 
-class Dog extends Animal {
-  bark(){
-	  
-	  console.log("woof");
-  }
-}
 
 class Cat extends Animal {
 	purr(){
 console.log("purr");
 	}
+}
+
+class Dog extends Animal {
+  bark(){
+	  
+	  console.log("woof");
+  }
 }
 // const animal= new Animal("Unknown");
 // console.log(animal.species)
